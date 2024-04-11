@@ -11,9 +11,7 @@ function Pokemon({ item }) {
 
 function App() {
   const [direction, setDirection] = useState(1);
-
   const handleAscClick = () => setDirection(1);
-
   const handleDescClick = () => setDirection(-1);
 
   const sortedItems = items.sort((a, b) => direction * (a.id - b.id));
