@@ -1,0 +1,12 @@
+.app .app-button {
+  margin: 6px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+}
